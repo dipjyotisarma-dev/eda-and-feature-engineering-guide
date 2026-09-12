@@ -1,0 +1,43 @@
+# Python Environment & Bytecode
+.venv/
+venv/
+env/
+
+# Python compiled cache (e.g., data_generation/__pycache__/)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints & Artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert/
+
+# IDE, Editor & Workspace Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files (Windows & macOS)
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+.DS_Store?
+._*
+
+# Test, Run & Validation Logs
+.pytest_cache/
+*.log
+
+# Project Data & Datasets (Preserve synthetic data, ignore scratch exports)
+!datasets/**/README.md
+!datasets/**/*.csv
+
+# Ignore any temporary ad-hoc exported data dumps or scratch files
+scratch/
+tmp/
+temp/
+outputs/
